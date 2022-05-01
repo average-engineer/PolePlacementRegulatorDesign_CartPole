@@ -37,6 +37,10 @@ The closed loop system is simulated using the `initial` command from CST toolbox
 
 `[t,w] = ode45(@(t,w)ClosedLoopStateSpace(t,w,A,B,K),t_span,w_0);`
 
+![sys](https://github.com/average-engineer/PolePlacementRegulatorDesign_CartPole/blob/main/Images/CSTResuls.jpg)
+
+![sys](https://github.com/average-engineer/PolePlacementRegulatorDesign_CartPole/blob/main/Images/ode45Results.jpg)
+
 
 
 
